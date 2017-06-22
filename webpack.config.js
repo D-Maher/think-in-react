@@ -28,7 +28,7 @@ module.exports = {
       {
         enforce: 'pre', // this ensures that this runs before Babel
         test: /\.jsx?$/, // same as below
-        loader: 'eslint-loader', // the loader we want to run the code through
+        // loader: 'eslint-loader', // the loader we want to run the code through
         exclude: /node_modules/ // we don't care about node_modules/ passing linting
       },
       {
